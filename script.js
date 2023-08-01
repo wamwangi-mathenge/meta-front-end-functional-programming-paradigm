@@ -18,3 +18,12 @@ var h = 2;
 var distance = getDistance(mph, h)
 
 console.log(distance)
+
+// Object-oriented programming
+var virtualPet = {
+    sleepy: true,
+    nap: function() {
+        this.sleepy = false
+    }
+}
+console.log(virtualPet.sleepy)
